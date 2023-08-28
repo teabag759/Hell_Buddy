@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Buddy</title>
+</head>
+<body>
+    <!-- 로그인 후 보는 화면 -->
+    <div id="viewType">
+        <a href="./my_page.html" id="myLink">my tweet</a>
+        <a href="./all_page.html" id="allLink">all tweet</a>
+    </div>
+
+    <header>
+        <div id="firstPage"> Hello Buddy </div>
+
+        <!-- 로그인 후 -->
+        <div id="myName">
+            <p>안녕하세요. 김태영님</p>
+            <div id="logoutBox">
+                <input type="button" id="logoutBtn" value="로그아웃">
+            </div>
+        </div>
+
+        <!-- 로그인 전 -->
+        <div id="loginForm">
+            <form name="loginForm" method="post" action="./login.php">
+                <div id="loginEmailArea">
+                    <label for="loginEmail">E-Mail</label>
+                    <div class="loginInputBox">
+                        <input type="email" id="loginEmail" name="email" placeholder="이메일">
+                    </div>
+                </div>
+                <div id="loginPwArea">
+                    <label for="loginPw">Password</label>
+                    <div class="loginInputBox">
+                        <input type="password" id="loginPw" name="userPw" placeholder="비밀번호 8자리 이상 입력">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
