@@ -1,0 +1,48 @@
+
+#signUp{ display: none; }
+
+/* Common */
+#siteComment{
+    border: 3px solid #fed802da;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fed802da;
+}
+
+/* mobile base css source : "소중한~ 나눠보세요^_^" */
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+    body{ background: #fff; }
+
+    #signUpCenter{ width: 80%; }
+
+    #introSite{
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+
+    #siteComment{
+        margin: 10%;
+        float: left;
+        width: 100%;
+        color: #fed802da;
+        text-align: center;
+        padding-top: 1rem;
+        border: 1rem;
+    }
+
+    #signUpBtn {
+        margin: 10% auto 15%;
+        padding: 100px;
+        height: 30px;
+        background: #fed802da;
+        text-align: center;
+        padding-top: 1em;
+        border-radius: 1rem;
+    }
+
+    #signUpBtn p{
+        font-size: 1rem;
+        color: #fff;
+    }
+}
